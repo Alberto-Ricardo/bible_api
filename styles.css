@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(41, 50, 50);
+    color: lightseagreen;
+}
+section {
+    text-align: center;
+    margin-top: 80px;
+}
+
+p {
+    font-size: 2rem;
+}
