@@ -13,6 +13,7 @@ var verse = v.value;
 var chunk = "https://bible-api.com/";
 var plus = "+";
 var colon = ":";
+var version = "?translation=kjv"  //Add a version option //Swicth between english & king james version's
 var target = chunk + book + plus + chapter + colon + verse;
 console.log(target);
 
