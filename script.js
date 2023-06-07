@@ -24,7 +24,7 @@ console.log(target);
 			var texto = response.text;
 
 			var resultado = document.getElementById('resultado');
-			resultado.innerHTML = '<p>' + texto + '</p><p style="text-align: right">' + reference + '</p>';
+			resultado.innerHTML = '<p>' + texto + '</p><p style="margin-right: 10px;">' + reference + '</p>';
 		})
 		
 		.catch(err => console.log(err))
